@@ -1,0 +1,17 @@
+# Ignore API keys and sensitive files
+.env
+.env.*
+*.env
+# Ignore other common sensitive files
+*.key
+*.pem
+*.p12
+*.crt
+*.cert
+# Node modules and build output
+node_modules/
+dist/
+build/
+# OS generated files
+.DS_Store
+Thumbs.db
